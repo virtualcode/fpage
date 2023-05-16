@@ -1,6 +1,6 @@
 <style scope="global">
     body {
-      background-image: url("/_public/horizon2.jpg");
+      background-image: url("/_public/horizon.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -57,6 +57,49 @@
         grid-column: 1 / 6;
       }
     }
+
+    /* menu */
+    ul {
+  list-style-type: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: transparent;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* show current selection */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a {
+  display: block;
+  width: 60px;
+}
   </style>
   
   <main
@@ -70,6 +113,16 @@
       font-light
     "
   >
+
+    <div>
+        <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+    </div>
+
     <section
       class="
         p2
@@ -82,8 +135,8 @@
         leading5
       "
     >
+
     <h1>Beyond The Horizon</h1>
-    </section>
     <div
       class="f
        grid-lg
@@ -95,6 +148,7 @@
      >
     <h2>Photography - Web Applications</h2>
     </div>
+</section>
   </main>
   
   
