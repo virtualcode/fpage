@@ -1,5 +1,8 @@
 @app
-begin-app
+bthview
+
+@aws
+region us-east-1
 
 @static
 prune true

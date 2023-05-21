@@ -1,5 +1,6 @@
 <style scope="global">
     body {
+      background-color: #000;
       background-image: url("/_public/horizon.jpg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -36,15 +37,10 @@
       height: 4rem;
     }
   
-    .discord-logo {
-      width: 1.75rem;
-    }
-  
     .radius5 {
       border-radius: 5px;
     }
-  
-  
+
     @media only screen and (min-width:48em) {
       :host > main {
         display: grid;
@@ -59,7 +55,7 @@
     }
 
     /* menu */
-    ul {
+ul {
   list-style-type: none;
   border: none;
   margin: 0;
@@ -69,15 +65,12 @@
 }
 
 li a {
-  display: block;
+  display: block ;
   color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #555;
   color: white;
 }
 
@@ -89,7 +82,6 @@ li a:hover {
 
 li {
   text-align: center;
-  border-bottom: 1px solid #555;
 }
 
 li:last-child {
@@ -100,7 +92,8 @@ li a {
   display: block;
   width: 60px;
 }
-  </style>
+/* end menu*/
+</style>
   
   <main
     class="
@@ -113,15 +106,6 @@ li a {
       font-light
     "
   >
-
-    <div>
-        <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/images">Images</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </div>
 
     <section
       class="
@@ -136,20 +120,14 @@ li a {
       "
     >
 
-    <h1>Beyond The Horizon</h1>
-    <div
-      class="f
-       grid-lg
-       flow-col
-       gap1
-       w-full
-       center
-      "
-     >
-    <h2>Photography - Web Applications</h2>
-    </div>
-</section>
+    <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://192.81.212.220">Images</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+
+    <h1 style="text-align: right;">Beyond The Horizon</h1>
+    <h2 style="text-align: right;">Photography - Web Applications</h2>
+    </section>
   </main>
-  
-  
-  
